@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#0b3c6d,#ff7a00);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.app {
+  background: rgba(0,0,0,0.85);
+  padding: 40px;
+  border-radius: 15px;
+  width: 380px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+p {
+  color: #ccc;
+}
+
+.upload-box {
+  margin: 25px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  margin: 8px auto;
+  color: white;
+}
+
+button {
+  background: #ff7a00;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background: #e86c00;
+}
